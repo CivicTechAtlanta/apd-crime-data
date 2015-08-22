@@ -12,6 +12,7 @@
    
 ### Data Visualization
    - [ ] Violent crime
+![](http://i.imgur.com/pRgKdoj.jpg)
 ![](http://i.imgur.com/hgo90Kk.jpg)
 ![](http://i.imgur.com/aEWFtuf.jpg)
 ![](http://i.imgur.com/t4ccFMh.jpg)
