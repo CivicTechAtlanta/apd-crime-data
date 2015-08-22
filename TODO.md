@@ -5,14 +5,18 @@
    
 ### Adding to dataset
    - [ ] Add columns w/ UCR data (from UCR codes)
-      - [ ] Find UCR code definition list
+      - [x] Find UCR code definition list (saved as **crime_codes.txt**)
+	  - [ ] Parse crime_codes.txt into usable format 
    - [ ] Calculate "average date" of Occur Date & Possible Date
    - [ ] Add date metadata (year, month, week, etc)
    - [ ] Rename & reorder columns
    
 ### Data Visualization
-   - [ ] Violent crime
-![](http://i.imgur.com/pRgKdoj.jpg)
-![](http://i.imgur.com/hgo90Kk.jpg)
-![](http://i.imgur.com/aEWFtuf.jpg)
-![](http://i.imgur.com/t4ccFMh.jpg)
+   - [ ] Violent crime 1
+		![](http://i.imgur.com/pRgKdoj.jpg)
+   - [ ] Violent crime 2
+		![](http://i.imgur.com/hgo90Kk.jpg)
+   - [ ] Violent crime 3
+		![](http://i.imgur.com/aEWFtuf.jpg)
+   - [ ] Violent crime 4
+		![](http://i.imgur.com/t4ccFMh.jpg)
