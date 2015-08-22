@@ -11,3 +11,8 @@ Convert [Atlanta Police Department's "Crime Data Downloads" site ](http://www.at
    4. This will output 2 files in the working directory:
     * **COBRA_cleaned.csv**:  non-error rows, with extra columns X, X.1, X.2 removed
     * **COBRA_errors.csv**: error rows only
+
+#### Reference Info
+   * UCR Codes
+      * [ATL PD "UCR Code Sheet" (pdf)](http://www.atlantapd.org/pdf/crime-data-downloads/28.pdf)
+      * **crime_codes.txt** Data copied + pasted from the above linked pdf, and saved in this repo
