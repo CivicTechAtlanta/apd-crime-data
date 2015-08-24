@@ -6,7 +6,12 @@
 ### Adding to dataset
    - [ ] Add columns w/ UCR data (from UCR codes)
       - [x] Find UCR code definition list (saved as **crime_codes.txt**)
-	  - [ ] Parse crime_codes.txt into usable format 
+	  - [ ] Convert crime_codes.txt into csv
+	      - Highest row completed: 102 (574 rows total)
+	  - [ ] Further split field metadata
+	      - [ ] time period
+		  - [ ] weapon
+		  - [ ] other metadata (work by section)
    - [ ] Calculate "average date" of Occur Date & Possible Date
    - [ ] Add date metadata (year, month, week, etc)
    - [ ] Rename & reorder columns
@@ -20,3 +25,5 @@
 		![](http://i.imgur.com/aEWFtuf.jpg)
    - [ ] Violent crime 4
 		![](http://i.imgur.com/t4ccFMh.jpg)
+		
+### Create Shiny App for data exploration
