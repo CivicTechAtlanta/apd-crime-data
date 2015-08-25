@@ -6,11 +6,12 @@
 ### Adding to dataset
    - [ ] Add columns w/ UCR data (from UCR codes)
       - [x] Find UCR code definition list (saved as **crime_codes.txt**)
-	  - [ ] Convert crime_codes.txt into csv
-	      - Highest row completed: 102 (574 rows total)
-	  - [ ] Further split field metadata
+	  - [x] Convert crime_codes.txt into csv
+	  - [ ] Further split field metadata (see crime_codes_organizing.xlsx)
 	      - [ ] time period
-		  - [ ] weapon
+		  - [ ] weapon: gun, knife, strongarm, other weapon
+		  - [ ] forced entry: timeframe
+		  - [ ] motor vehicle theft: type of vehicle
 		  - [ ] other metadata (work by section)
    - [ ] Calculate "average date" of Occur Date & Possible Date
    - [ ] Add date metadata (year, month, week, etc)
