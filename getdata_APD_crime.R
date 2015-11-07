@@ -27,7 +27,7 @@ getdata <- function(){
   write.csv(apd.cleandata, "COBRA_cleaned.csv", row.names=FALSE)
   
   # Create new data frame of error rows only, and write to csv file
-  error_rows <- filter(rawdata, offense_id %in% errors_all)
+  error_rows <- filter(rawdata, offense.id %in% errors_all)
   write.csv(error_rows, "COBRA_errors.csv", row.names=FALSE)
   
   # Return clean data
