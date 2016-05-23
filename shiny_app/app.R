@@ -6,8 +6,9 @@
 library(shiny); library(lubridate); library(ggplot2)
 library(ggmap); library(RgoogleMaps); library(readr)
 library(rvest); library(dplyr)
-#source("https://raw.githubusercontent.com/codeforatlanta/apd-crime-data/new-data-flow/R/get_clean_data.R")
-#source("https://raw.githubusercontent.com/codeforatlanta/apd-crime-data/new-data-flow/R/map_data.R")
+
+source("https://raw.githubusercontent.com/codeforatlanta/apd-crime-data/new-data-flow/R/get_clean_data.R")
+source("https://raw.githubusercontent.com/codeforatlanta/apd-crime-data/new-data-flow/R/map_data.R")
 
 # Get crime data
 apd.crime <- get.apd.crime.data(download.file.flag = FALSE)$apd.crime
@@ -35,9 +36,9 @@ server <- function(input, output) {
      
      dataset <- reactive({
           if(input$crime.category.homicide){
-               apd.crime %>% filter(report.year == input$year & UC2_Literal == "HOMICIDE")
+               apd.crime %>% filter(reported_year == input$year & UC2_Literal == "HOMICIDE")
           } else {
-               apd.crime %>% filter(report.year == input$year)
+               apd.crime %>% filter(reported_year == input$year)
           }
      })
      

@@ -66,5 +66,3 @@ get.apd.crime.data <- function(download.file.flag = TRUE){
      return(list(apd.crime = apd.crime,
                  apd.crime.problems = problems(apd.crime.raw)))
 }
-
-output <- get.apd.crime.data()
