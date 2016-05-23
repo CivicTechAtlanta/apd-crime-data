@@ -25,3 +25,6 @@ Good news: it runs locally!
 StackOverflow question to fix problem with shiny app, so it can be deployed on the web:
 
 * http://stackoverflow.com/questions/37367708/shiny-app-error-when-deployed-works-locally-rvest-html-nodes-issue/37381749#37381749
+
+#### Screenshot of Shiny App:
+![](https://raw.githubusercontent.com/codeforatlanta/apd-crime-data/new-data-flow/atlanta%20crime%20explorer.PNG)
