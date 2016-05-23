@@ -13,6 +13,15 @@ Convert [Atlanta Police Department's "Crime Data Downloads" site ](http://www.at
     * data/COBRAmmddyy.csv: raw data from APD site
     * zone_shapefiles/[Shape files]
 
-#### Shiny App Notes
-    This repo contains a shiny_app folder, which is a self-contained app that runs locally.  The deployed web app is still in development (see link below to issue on stackoverflow).
-	    * http://stackoverflow.com/questions/37367708/shiny-app-error-when-deployed-works-locally-rvest-html-nodes-issue/37381749#37381749
+#### How to run the shiny app
+Bad news: it only runs locally right now (not yet on shinyapps.io)
+
+Good news: it runs locally!
+
+1. After following instructions in step 1 & 2, open this file in RStudio: shiny_app/app.R
+2. There will be a play button & "Run App" in the upper right corner of the code window; click it
+3. The app is kind of clunky data-wise, so be patient as it loads.  There should be pop-ups and progress bars to show it's thinking
+
+StackOverflow question to fix problem with shiny app, so it can be deployed on the web:
+
+* http://stackoverflow.com/questions/37367708/shiny-app-error-when-deployed-works-locally-rvest-html-nodes-issue/37381749#37381749
